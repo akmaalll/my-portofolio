@@ -14,6 +14,7 @@ const StyledList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+  color: #ccd6f6;
 
   &:after {
     content: '';
@@ -35,8 +36,8 @@ const StyledLink = styled.a`
     transform: translateY(-3px);
   }
   svg {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
   }
 `;
 

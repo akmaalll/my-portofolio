@@ -101,14 +101,14 @@ const Footer = () => {
         </StyledSocialList>
       </StyledSocial>
       <StyledMetadata tabindex="-1">
+        <div>
+          © 2024 with ❤ by<a href="https://github.com/akmaalll/">akmlrydlftrh</a>
+        </div>
         <StyledGitHubLink
           href="https://github.com/bchiang7/v4"
           target="_blank"
           rel="nofollow noopener noreferrer">
-          <div>
-            Designed &amp; Built by Brittany Chiang<br></br>
-            Revised by Chandrika Deb
-          </div>
+          <div>Template by Brittany Chiang</div>
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>

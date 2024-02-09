@@ -1,23 +1,21 @@
 ---
 title: 'About Me'
-avatar: 'me.jpg'
+avatar: 'm1.jpeg'
 skills:
-  - Java Enterprise
-  - Spring MVC & Maven
-  - Jenkins (CI/CD)
-  - Kafka & Couchbase
-  - JUnit & TestNG
-  - IntelliJ Idea
-  - Golang
-  - Python
+  - Laravel
+  - JavaScript (ES6+)
+  - React
+  - MySql
+  - C++
+  - PHP
 ---
 
-Hello! Interestingly, I got introduced to programming in my freshman year at [Birla Institute Of Technology,  Mesra](https://www.bitmesra.ac.in/) where I completed my Bachelors in Computer Science and Engineering (2016-2020) with [86.3% aggregate](https://drive.google.com/file/d/1G4UBPBP0mvWZLRdkF_EcpmKKGp7_OA8U/view?usp=sharing).
+Hello! My name is Akmal and Currently a 5th semester student with a passion for web
+development started back in 2021 when I began learning website development on campus.
 
-I'm currently working as a developer for **Bell Canada** in the Amdocs Digital Delivery unit. My responsibilty includes Java/Spring based microservices development & testing. 
-
-I'm also an [Innovation Agent](https://drive.google.com/file/d/117KS9QnDrcg7dllcAzGz_b7qQPgR3pGs/view?usp=sharing) fostering the culture of creativity and innovation at Amdocs, India.
-
-I have been awarded as Winner in [Innovation Nugget](https://drive.google.com/file/d/1PzTZkXlQV9ldZxqmBbbO94uIqrhSwvcq/view?usp=sharing), Creativity Jam, [Design Thinking Hackathon](https://drive.google.com/file/d/1hXCATvKwzHCvctHtElsqFg5YIqabz22O/view?usp=sharing) and Runners-Up in [Project ICE Fair](https://drive.google.com/file/d/1exB19OoQ5dzU2mg4qbdkNutA25TGBWV3/view?usp=sharing) by Amdocs.
-
-Here is a list of the technologies that I'm familiar with!
+Actively engaged in the Dipanegara Computer Club Study Club, where I contribute to an
+environment of shared learning and knowledge exchange. This involvement allows me to
+stay updated on the latest industry practices and collaborate with fellow enthusiasts.
+Eager to apply my skills and insights gained from both academic studies and practical
+experience to contribute meaningfully to web development projects and explore new
+opportunities in the field.

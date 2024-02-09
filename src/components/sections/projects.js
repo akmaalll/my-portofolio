@@ -34,12 +34,12 @@ const StyledArchiveLink = styled(Link)`
 `;
 const StyledGrid = styled.div`
   margin-top: 50px;
-  margin-left: 10%;
+  margin-left: 0%;
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
     position: relative;
     ${media.desktop`grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));`};
   }
@@ -50,7 +50,7 @@ const StyledProjectInner = styled.div`
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  padding: 2rem 1.75rem;
+  padding: 2rem 2rem;
   height: 100%;
   border-radius: ${theme.borderRadius};
   transition: ${theme.transition};
@@ -139,7 +139,7 @@ const Projects = ({ data }) => {
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
-  const GRID_LIMIT = 9;
+  const GRID_LIMIT = 3;
   const projects = data.filter(({ node }) => node);
   const firstSix = projects.slice(0, GRID_LIMIT);
   const projectsToShow = showMore ? projects : firstSix;
@@ -210,6 +210,10 @@ const Projects = ({ data }) => {
                         )}
                       </footer>
                     </StyledProjectInner>
+                    
+                    {/* <StyledMoreButton onClick={() => setShowMore(!showMore)}>
+                    Show {showMore ? 'Less' : 'More'}
+                  </StyledMoreButton> */}
                   </StyledProject>
                 </CSSTransition>
               );
